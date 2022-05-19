@@ -1,0 +1,47 @@
+._decoration::before {
+
+    content: "";
+
+    height: 48px;
+    width: 48px;
+    margin-right: .5rem;
+
+    background-image: url("https://img.icons8.com/color/50/000000/christmas-ball.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    /* left: 0; */
+    transform: translateX(-110%);
+    bottom: -.6rem;
+    display: inline-block;
+}
+._decoration::after {
+
+    content: "";
+
+    height: 48px;
+    width: 48px;
+    margin-left: .5rem;
+    
+
+    background-image: url("https://img.icons8.com/fluency/50/000000/christmas-stocking.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    bottom: -.6rem;
+    display: inline-block;
+}
+
+.goodnews{
+    color: rgb(90, 150, 0);
+}
+.badnews{
+    color: #fb0000;
+}
+
+
+.form-control, .form-select, .btn{
+    border-radius: 0 !important;
+}
